@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: TonyChara_Hands1.2.ma
-//Last modified: Wed, Jan 31, 2024 10:54:34 AM
+//Last modified: Wed, Jan 31, 2024 11:19:23 AM
 //Codeset: 1252
 requires maya "2023";
 requires -nodeType "HIKSolverNode" -nodeType "HIKCharacterNode" -nodeType "HIKFK2State"
@@ -15,19 +15,19 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202211021031-847a9f9623";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19045)";
-fileInfo "UUID" "463D0E7E-4C91-675E-B022-DF96CDB8EF6D";
+fileInfo "UUID" "B75361F4-4634-55A3-0101-C9BC73680187";
 createNode transform -s -n "persp";
 	rename -uid "E9517F19-4874-C589-86CE-019ED082ACA4";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -2.2484582559962272 17.938805505072452 13.269866037270408 ;
-	setAttr ".r" -type "double3" 315.85500536467362 19440.997679107328 8.668464071236287e-05 ;
+	setAttr ".t" -type "double3" -1.2394842415727367 7.547202226029305 6.2684047582370894 ;
+	setAttr ".r" -type "double3" 355.45499748702764 19435.797679106643 8.6905183479150339e-05 ;
 	setAttr ".rp" -type "double3" -2.55351295663786e-15 0 -2.8421709430404007e-14 ;
 	setAttr ".rpt" -type "double3" -4.5743415768777112e-14 -1.2387501845811081e-14 2.3251496741071873e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "726EBA00-45A6-2E5D-966C-728A9DCB267E";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 19.692569569253472;
+	setAttr ".coi" 8.3569917867954313;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
